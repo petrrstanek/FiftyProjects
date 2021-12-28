@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #3494e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.rectangle {
+  background-color: #fff;
+  border: 5px solid #144fc6;
+  height: 330px;
+  width: 150px;
+  border-radius: 0px 0px 30px 30px;
+  position: relative;
+  color: #144fc6;
+  font-weight: bold;
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 1000;
+}
+
+.remain {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 1000;
+  font-weight: bold;
+}
+
+.rectangle p {
+  padding: 0;
+  margin: 0;
+}
+
+.fill {
+  background-color: #6ab3f8;
+  position: absolute;
+  bottom: 0;
+  height: 0%;
+  width: 100%;
+  border-radius: 0px 0px 24px 25px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.centred-goal {
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.center-size-small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  margin: 0;
+  color: #144fc6;
+  font-weight: bold;
+}
+
+.centred-size-small p {
+  margin: 0;
+}
+
+.row1,
+.row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row1 {
+  margin-bottom: 1rem;
+}
+
+.rectangle-small {
+  height: 100px;
+  width: 70px;
+  border-radius: 0rem 0rem 25px 25px;
+  border: 4px solid #144fc6;
+  background-color: #fff;
+  color: #144fc6;
+  margin-left: 0.8rem;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.rectangle-small.active {
+  background-color: #6ab3f8;
+  color: #fff;
+}
+
+.percentage {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.mx-1 {
+  margin: 0rem 1rem;
+}
+
+.mt-1 {
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+.mb-1 {
+  margin: 0rem 0rem 10rem;
+}
+
+.ml-1 {
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.mr-1 {
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.px-1 {
+  padding: 0rem 1rem;
+}
+
+.pt-1 {
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+.pb-1 {
+  padding: 0rem 0rem 10rem;
+}
+
+.pl-1 {
+  padding: 0rem 0rem 0rem 1rem;
+}
+
+.pr-1 {
+  padding: 0rem 1rem 0rem 0rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.mx-2 {
+  margin: 0rem 2rem;
+}
+
+.mt-2 {
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+.mb-2 {
+  margin: 0rem 0rem 20rem;
+}
+
+.ml-2 {
+  margin: 0rem 0rem 0rem 2rem;
+}
+
+.mr-2 {
+  margin: 0rem 2rem 0rem 0rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.px-2 {
+  padding: 0rem 2rem;
+}
+
+.pt-2 {
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.pb-2 {
+  padding: 0rem 0rem 20rem;
+}
+
+.pl-2 {
+  padding: 0rem 0rem 0rem 2rem;
+}
+
+.pr-2 {
+  padding: 0rem 2rem 0rem 0rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.mx-3 {
+  margin: 0rem 3rem;
+}
+
+.mt-3 {
+  margin: 3rem 0rem 0rem 0rem;
+}
+
+.mb-3 {
+  margin: 0rem 0rem 30rem;
+}
+
+.ml-3 {
+  margin: 0rem 0rem 0rem 3rem;
+}
+
+.mr-3 {
+  margin: 0rem 3rem 0rem 0rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.px-3 {
+  padding: 0rem 3rem;
+}
+
+.pt-3 {
+  padding: 3rem 0rem 0rem 0rem;
+}
+
+.pb-3 {
+  padding: 0rem 0rem 30rem;
+}
+
+.pl-3 {
+  padding: 0rem 0rem 0rem 3rem;
+}
+
+.pr-3 {
+  padding: 0rem 3rem 0rem 0rem;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.mx-4 {
+  margin: 0rem 4rem;
+}
+
+.mt-4 {
+  margin: 4rem 0rem 0rem 0rem;
+}
+
+.mb-4 {
+  margin: 0rem 0rem 40rem;
+}
+
+.ml-4 {
+  margin: 0rem 0rem 0rem 4rem;
+}
+
+.mr-4 {
+  margin: 0rem 4rem 0rem 0rem;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.px-4 {
+  padding: 0rem 4rem;
+}
+
+.pt-4 {
+  padding: 4rem 0rem 0rem 0rem;
+}
+
+.pb-4 {
+  padding: 0rem 0rem 40rem;
+}
+
+.pl-4 {
+  padding: 0rem 0rem 0rem 4rem;
+}
+
+.pr-4 {
+  padding: 0rem 4rem 0rem 0rem;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.mx-5 {
+  margin: 0rem 5rem;
+}
+
+.mt-5 {
+  margin: 5rem 0rem 0rem 0rem;
+}
+
+.mb-5 {
+  margin: 0rem 0rem 50rem;
+}
+
+.ml-5 {
+  margin: 0rem 0rem 0rem 5rem;
+}
+
+.mr-5 {
+  margin: 0rem 5rem 0rem 0rem;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.px-5 {
+  padding: 0rem 5rem;
+}
+
+.pt-5 {
+  padding: 5rem 0rem 0rem 0rem;
+}
+
+.pb-5 {
+  padding: 0rem 0rem 50rem;
+}
+
+.pl-5 {
+  padding: 0rem 0rem 0rem 5rem;
+}
+
+.pr-5 {
+  padding: 0rem 5rem 0rem 0rem;
+}

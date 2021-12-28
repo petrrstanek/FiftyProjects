@@ -1,0 +1,139 @@
+html{
+
+
+  border-size: border-box;
+  }
+
+body{
+background-color: #E1ECEF;
+  margin: 0px;
+
+
+  }
+
+  .container{
+    outline: 1px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+
+
+
+  }
+  .column1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 50vh;
+    position: relative;
+    top: 50%;
+
+
+  }
+  .column2{
+  display: flex;
+  justify-content: center;
+  margin: 60px 0px 20px 48px;
+
+
+  }
+  .circle {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 2.8px solid lightblue;
+    font-size: 13.5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-weight: bold;
+    margin-left: 4%;
+    background-color: white;
+  }
+
+ .firstCircle:after{
+    content: "";
+    position: absolute;
+    width: 8%;
+    height: 3px;
+    background-color: var(--first-color);
+    z-index : -1;
+    left: 43%;
+    transition: 0.8s;
+  }
+
+  .secondCircle:after{
+    content: "";
+    position: absolute;
+    width: 6%;
+    height: 3px;
+    background-color: var(--second-color);
+    z-index : -1;
+    left: 50%;
+    transition: ease-in 0.8s;
+  }
+
+  .thirdCircle:after{
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 3px;
+    background-color: var(--third-color);
+    z-index : -1;
+    left: 54%;
+    transition: ease-in 0.8s;
+
+  }
+
+  .buttons{
+
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #69D1ED;
+    border-radius: 5px;
+    color: white;
+    border: 1px;
+    cursor: pointer;
+
+  }
+
+  .buttons:hover{
+     box-shadow: 0 8px 13px 0 rgba(0,0,0,0.24), 0 15px 40px 0 rgba(0,0,0,0.19)
+
+  }
+  .centred{
+    position: absolute;
+    top: 72%;
+    left: 52%;
+    margin 0px;
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+
+  .active{
+    border: 2.8px solid green;
+    transition: 0.3s;
+    transition-delay: 0.5s;
+
+
+
+  }
+
+  :root{
+    --first-color: #9FA8AA;
+    --second-color: #9FA8AA;
+    --third-color: #9FA8AA;
+
+
+  }
+
+  button[disabled]{
+    opacity: 0.3;
+    cursor: not-allowed;
+  }

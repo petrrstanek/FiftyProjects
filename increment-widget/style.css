@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Play', sans-serif;
+}
+
+body {
+  background-color: steelblue;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  top: 20px;
+}
+.box {
+  height: 200px;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  font-size: 80px;
+  color: whitesmoke;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+}
+span {
+  padding-top: 40px;
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+  .box {
+    font-size: 50px;
+  }
+  .flex-box {
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 30px;
+    top: 0;
+  }
+  span {
+    padding-top: 0px;
+    font-size: 35px;
+  }
+}

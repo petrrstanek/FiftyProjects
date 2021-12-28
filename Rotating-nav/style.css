@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+html{
+  background-color: #4c5658;
+  position: relative;
+
+
+}
+.rotator{
+  transform: rotate(-16deg);
+
+}
+.circleRotator{
+  transform: rotate(-90deg);
+}
+.content{
+  height: 100%;
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #55C3F9;
+  margin: -10px;
+  transform-origin: top left;
+  transition: transform 1s ease;
+  z-index: -1;
+  position: relative;
+
+}
+.container{
+  padding: 50px;;
+
+  }
+.img{
+  width: 100%;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.format{
+  padding-top: 20px;
+}
+
+.circle{
+  width: 150px;
+  height: 150px;
+  background-color: #F99655;
+  border-radius: 100%;
+  position: absolute;
+  transition: transform 1s;
+  margin: -90px;
+
+}
+  
+.menu{
+  width: 17px;
+  position: absolute;
+  left: 65%;
+  top: 70%;
+  cursor: pointer;
+
+}
+.close{
+  width: 15px;
+  position: absolute;
+  left: 19%;
+  top: 66%;
+  cursor: pointer;
+
+}
+
+.navbar{
+  position: absolute;
+  z-index: 1;
+  top: 65%;
+  transition: transform 1s;
+ 
+}
+
+.showNav{
+transform: translateX(200px); 
+transition-delay: 200ms;
+color: white;
+
+
+}
+.home{
+  text-indent: -195px;
+}
+.contact{
+  text-indent: -175px;
+}
+.about{
+  text-indent: -155px;
+}

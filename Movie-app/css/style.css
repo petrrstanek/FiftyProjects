@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.mx-1 {
+  margin: 0rem 1rem;
+}
+
+.mt-1 {
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+.mb-1 {
+  margin: 0rem 0rem 10rem;
+}
+
+.ml-1 {
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.mr-1 {
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.px-1 {
+  padding: 0rem 1rem;
+}
+
+.pt-1 {
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+.pb-1 {
+  padding: 0rem 0rem 10rem;
+}
+
+.pl-1 {
+  padding: 0rem 0rem 0rem 1rem;
+}
+
+.pr-1 {
+  padding: 0rem 1rem 0rem 0rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.mx-2 {
+  margin: 0rem 2rem;
+}
+
+.mt-2 {
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+.mb-2 {
+  margin: 0rem 0rem 20rem;
+}
+
+.ml-2 {
+  margin: 0rem 0rem 0rem 2rem;
+}
+
+.mr-2 {
+  margin: 0rem 2rem 0rem 0rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.px-2 {
+  padding: 0rem 2rem;
+}
+
+.pt-2 {
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.pb-2 {
+  padding: 0rem 0rem 20rem;
+}
+
+.pl-2 {
+  padding: 0rem 0rem 0rem 2rem;
+}
+
+.pr-2 {
+  padding: 0rem 2rem 0rem 0rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.mx-3 {
+  margin: 0rem 3rem;
+}
+
+.mt-3 {
+  margin: 3rem 0rem 0rem 0rem;
+}
+
+.mb-3 {
+  margin: 0rem 0rem 30rem;
+}
+
+.ml-3 {
+  margin: 0rem 0rem 0rem 3rem;
+}
+
+.mr-3 {
+  margin: 0rem 3rem 0rem 0rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.px-3 {
+  padding: 0rem 3rem;
+}
+
+.pt-3 {
+  padding: 3rem 0rem 0rem 0rem;
+}
+
+.pb-3 {
+  padding: 0rem 0rem 30rem;
+}
+
+.pl-3 {
+  padding: 0rem 0rem 0rem 3rem;
+}
+
+.pr-3 {
+  padding: 0rem 3rem 0rem 0rem;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.mx-4 {
+  margin: 0rem 4rem;
+}
+
+.mt-4 {
+  margin: 4rem 0rem 0rem 0rem;
+}
+
+.mb-4 {
+  margin: 0rem 0rem 40rem;
+}
+
+.ml-4 {
+  margin: 0rem 0rem 0rem 4rem;
+}
+
+.mr-4 {
+  margin: 0rem 4rem 0rem 0rem;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.px-4 {
+  padding: 0rem 4rem;
+}
+
+.pt-4 {
+  padding: 4rem 0rem 0rem 0rem;
+}
+
+.pb-4 {
+  padding: 0rem 0rem 40rem;
+}
+
+.pl-4 {
+  padding: 0rem 0rem 0rem 4rem;
+}
+
+.pr-4 {
+  padding: 0rem 4rem 0rem 0rem;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.mx-5 {
+  margin: 0rem 5rem;
+}
+
+.mt-5 {
+  margin: 5rem 0rem 0rem 0rem;
+}
+
+.mb-5 {
+  margin: 0rem 0rem 50rem;
+}
+
+.ml-5 {
+  margin: 0rem 0rem 0rem 5rem;
+}
+
+.mr-5 {
+  margin: 0rem 5rem 0rem 0rem;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.px-5 {
+  padding: 0rem 5rem;
+}
+
+.pt-5 {
+  padding: 5rem 0rem 0rem 0rem;
+}
+
+.pb-5 {
+  padding: 0rem 0rem 50rem;
+}
+
+.pl-5 {
+  padding: 0rem 0rem 0rem 5rem;
+}
+
+.pr-5 {
+  padding: 0rem 5rem 0rem 0rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  background-color: #22254b;
+}
+
+nav {
+  width: 100vw;
+  background-color: #373b69;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-container {
+  position: relative;
+  width: 330px;
+  height: 50px;
+  border: 2.5px solid #22254b;
+  border-radius: 30px;
+}
+
+nav input {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  font-size: 20px;
+  outline: none;
+  color: white;
+  background-color: transparent;
+  border: 0;
+}
+
+nav .active {
+  background-color: #22254b;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box {
+  border: 1px solid black;
+  height: 600px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 1.5rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.box .movie-title {
+  height: 130px;
+  width: 100%;
+  border-radius: 5px 0px;
+  background-color: #373b69;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 25px;
+  position: relative;
+}
+
+.box .movie-title p {
+  position: absolute;
+  left: 17px;
+  top: 25px;
+  color: #fff;
+  font-size: 22px;
+  width: 70%;
+}
+
+.box .rating {
+  background-color: #22254b;
+  height: 30px;
+  width: 40px;
+  border-radius: 5px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  color: green;
+}

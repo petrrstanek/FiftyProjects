@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import './config';
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	height: 100vh;
+	background-color: $dark-purple;
+}
+
+nav {
+	width: 100vw;
+	background-color: $light-purple;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+
+	.nav-container {
+		position: relative;
+		width: 330px;
+		height: 50px;
+		border: 2.5px solid $dark-purple;
+		border-radius: 30px;
+	}
+	input {
+		position: absolute;
+		left: 15px;
+		top: 10px;
+		font-size: 20px;
+		outline: none;
+		color: white;
+		background-color: transparent;
+		border: 0;
+	}
+
+	.active {
+		background-color: $dark-purple;
+	}
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.box {
+	border: 1px solid black;
+	height: 600px;
+	width: 300px;
+	border-radius: 5px;
+	margin: 1.5rem 1rem;
+	display: flex;
+	align-items: end;
+
+	.movie-title {
+		height: 130px;
+		width: 100%;
+		border-radius: 5px 0px;
+		background-color: $light-purple;
+		display: flex;
+		align-items: center;
+		justify-content: end;
+		padding: 25px;
+		position: relative;
+		p {
+			position: absolute;
+			left: 17px;
+			top: 25px;
+			color: #fff;
+			font-size: 22px;
+			width: 70%;
+		}
+	}
+	.rating {
+		background-color: $dark-purple;
+		height: 30px;
+		width: 40px;
+		border-radius: 5px;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: bold;
+		color: green;
+	}
+}

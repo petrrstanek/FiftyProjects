@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;  
+    align-items: center;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.column{
+    padding: 5px;
+    position: relative;
+    max-width: 100%;
+    width: 600px;
+}
+.col{
+    border: 1px solid #999;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 30px 80px 30px 30px;
+    font-size: 20px;
+    position: relative;
+}
+
+.btn{
+    font-size: 20px;
+    right: 30px;
+    top: 20px;
+    position: absolute;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.active{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px steelblue;
+    height: 140px;
+    transition: all 0.1s ease-in;
+}
+.awsactive{
+    display: block!important;
+    transition: all 0.1s ease;
+}
+
+.active:before{
+    content: '\f075';
+    font-family: 'FontAwesome';
+    position: absolute;
+    font-size: 110px;
+    opacity: .25;
+    color: steelblue;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+}
+
+.far{
+    
+    position: absolute;
+    font-size: 110px;
+    opacity: .25;
+    color: steelblue;
+    top: 0;
+    left: 0;
+}
+.aws{
+    font-weight: normal;
+    font-size: 17px;
+    position: absolute;
+    bottom: 11px;
+    display: none;
+}
+
+.active .btn .fa-times{
+    display: block;
+   
+}
+
+.active .btn .fa-chevron-down{
+    display: none;
+}
+
+.btn .fa-times{
+    display: none;
+}
+
+
+

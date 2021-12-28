@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+}
+
+body {
+  background-color: #eafbff;
+  background-image: linear-gradient(to bottom, #eafbff 0%, #eafbff 50%, #5290f9 50%, #5290f9 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.menu {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  transition: width 0.8s ease;
+  width: 450px;
+  position: relative;
+}
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  margin: 10px;
+  padding: 5px;
+  position: relative;
+  left: 0;
+  transition: transform 1s, opacity 0.5s;
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+.btn {
+  height: 30px;
+  width: 30px;
+  margin: 30px;
+  position: absolute;
+  outline: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  right: 0;
+}
+
+.btn .line,
+.line2 {
+  background-color: #5290f9;
+  height: 1.5px;
+  width: 25px;
+  position: absolute;
+  transform: rotate(-45deg);
+  right: 5px;
+  bottom: 14px;
+  transition: transform 1s;
+}
+
+.btn .line {
+  transform: rotate(45deg);
+}
+
+.menu.active {
+  width: 100px;
+}
+
+.hrefs.active {
+  transform: rotateY(180deg);
+  opacity: 0;
+}
+
+.line.active {
+  transform: rotate(720deg);
+  top: 12px;
+}
+
+.line2.active {
+  transform: rotate(-720deg);
+  top: 20px;
+}

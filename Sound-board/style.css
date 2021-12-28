@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: rgb(32, 86, 131);
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(74, 137, 196);
+    box-shadow: 20px;
+    margin: 30px;
+}
+.btn:hover{
+    color: black;
+    border-color: white;
+    border: 1px solid;
+    transition: 0.1s;
+}
+
+.btn:active{
+    transform: scale(0.90);
+    
+}

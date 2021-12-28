@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:rgb(70, 143, 238)
+}
+
+.searchbar{
+    position: relative;
+    
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.input.active{
+    width: 100px;
+}
+.input{
+    height: 48px;
+    width: 37px;
+    border: 0;
+    font-size: 20px;
+    padding-left: 10px;
+    transition: width 0.3s ease;
+    
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.3s ease;
+    border: 0;
+    
+}
+
+.input.active{
+    width: 230px;
+    
+}
+
+.fas{
+    transition: transform 0.5s ease;
+    font-size: 30px;
+}
+.btn.active{
+    transform: translateX(200px);
+}
