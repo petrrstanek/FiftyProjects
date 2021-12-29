@@ -10,7 +10,11 @@ const images = [
 ];
 let counter = 0;
 
-prev.addEventListener('click', (e) => {
+prev.addEventListener('click', () => left());
+
+next.addEventListener('click', () => right());
+
+function left() {
 	if (counter === 0) {
 		counter = 5;
 		counter--;
@@ -21,9 +25,9 @@ prev.addEventListener('click', (e) => {
 		document.body.style.background = `rgba(0, 0, 0, 0.8) url('${images[counter]}')`;
 		slider.style.background = `url('${images[counter]}')`;
 	}
-});
+}
 
-next.addEventListener('click', (e) => {
+function right() {
 	if (counter === 4) {
 		counter = -1;
 		counter++;
@@ -34,4 +38,4 @@ next.addEventListener('click', (e) => {
 		document.body.style.background = `rgba(0, 0, 0, 0.8) url('${images[counter]}')`;
 		slider.style.background = `url('${images[counter]}')`;
 	}
-});
+}
