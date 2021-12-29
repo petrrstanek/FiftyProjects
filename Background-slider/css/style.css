@@ -21,8 +21,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  -webkit-transition: 0.3 ease;
-  transition: 0.3 ease;
 }
 
 .container {
@@ -33,8 +31,6 @@ body {
   overflow: hidden;
   position: relative;
   z-index: 2;
-  -webkit-transition: 0.3 ease;
-  transition: 0.3 ease;
 }
 
 .slide {
@@ -46,8 +42,8 @@ body {
   position: relative;
   bottom: 15vh;
   right: 15vw;
-  -webkit-transition: 0.3 ease;
-  transition: 0.3 ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .arrows {
