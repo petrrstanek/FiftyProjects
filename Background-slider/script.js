@@ -16,7 +16,7 @@ next.addEventListener('click', () => right());
 
 function left() {
 	if (counter === 0) {
-		counter = 5;
+		counter = images.length;
 		counter--;
 		document.body.style.background = `rgba(0, 0, 0, 0.8) url('${images[counter]}')`;
 		slider.style.background = `url('${images[counter]}')`;
@@ -28,7 +28,7 @@ function left() {
 }
 
 function right() {
-	if (counter === 4) {
+	if (counter === images.length) {
 		counter = -1;
 		counter++;
 		document.body.style.background = `rgba(0, 0, 0, 0.8) url('${images[counter]}')`;
